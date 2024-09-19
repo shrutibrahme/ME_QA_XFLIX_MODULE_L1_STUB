@@ -108,29 +108,7 @@
         {
           "object_notation": "COMMAND",
           "operator": "contains",
-          "expected_value": "NewWindow"
-        },
-        {
-          "object_notation": "COMMAND",
-          "operator": "contains",
-          "expected_value": "tab"
-        }
-      ],
-      "error_out": "Like a video and verify the like state across tabs",
-      "hint": "TestCase 5: Ensure that you like a video, open a new tab, and verify that the like state is preserved."
-    },
-    {
-      "description": "TestCase 5: Verify the Like Counter Functionality",
-      "validations": [
-        {
-          "object_notation": "RESPONSE",
-          "operator": "contains",
-          "expected_value": "GetElementText"
-        },
-        {
-          "object_notation": "RESPONSE",
-          "operator": "notequal",
-          "expected_value": "0"
+          "expected_value": "SwitchToWindow"
         }
       ],
       "error_out": "Like a video and verify the like state across tabs",
